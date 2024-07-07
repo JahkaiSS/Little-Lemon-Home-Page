@@ -1,0 +1,148 @@
+body{
+  margin: 5px;
+  padding: 20px;
+}
+
+p{
+  font-size: larger;
+}
+
+
+
+/* LOGO AND NAV SECTION */
+.containerHeader{
+  display: grid;
+  grid-template-rows: 180px 150px 100px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 12px;
+  text-align: center;
+}
+.header{
+  margin-top: 0px;
+  border: .05px solid;
+  border-radius: 40px;
+}
+#header1{
+  grid-area: 1 / 1 / 1 / -1;
+  background-image: url(Asset\ 16@4x.png);
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: tan;
+  
+}
+a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-size: 25px;
+}
+
+#header2:hover{
+  opacity: 50%;
+  transition: .5s;
+}
+#header3:hover{
+  opacity: 50%;
+  transition: .5s;
+}
+#header4:hover{
+  opacity: 50%;
+  transition: .5s;
+}
+#header5:hover{
+  opacity: 50%;
+  transition: .5s;
+}
+#header2{
+  padding: 42px;
+  background-color: black;
+}
+#header3{
+  padding: 42px;
+  background-color: black;
+}
+#header4{
+  padding: 42px;
+  background-color: black;
+}
+#header5{
+  padding: 42px;
+  background-color: black;
+}
+
+/* MAIN CONTENT */
+.containerMain{
+  display: grid;
+  grid-template-rows: 175px 320px; 
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-column-gap: 12px; */
+  grid-row-gap: 25px;
+  text-align: center;
+  position: relative;
+  top: -240px;
+}
+.main{
+  border: 1px solid gray;
+  border-radius: 40px;
+  padding: 10px;
+}
+#main1{
+  color: black;
+  grid-area: 1 / 1 / 2 / -1;
+  background-image: url(pngimg.com\ -\ pasta_PNG49.png);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: left;
+  background-position-x: -140px;
+  background-color: tan;
+
+}
+#main2{
+  background-color: tan;
+}
+
+#main3{
+  background-color: tan;
+}
+#main4{
+  background-color: tan;
+}
+#main2IMG {
+  display: block;
+  width: 600px;
+  height: 100px;
+}
+#main3IMG {
+  display: block;
+  width: 600px;
+  height: 100px;
+}
+#main4IMG {
+  display: block;
+  width: 600px;
+  height: 100px;
+}
+
+
+/* FOOTER */
+.containerFooter{
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 1fr 1fr;
+  
+  text-align: center;
+  position: relative;
+  top: -240px;
+}
+
+#logoFoot{
+  background-image: url(Asset\ 16@4x.png);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#copyright{
+  padding: 40px;
+  font-size: 15px;
+  text-align: right;
+}

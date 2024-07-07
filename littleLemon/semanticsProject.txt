@@ -1,0 +1,57 @@
+SEMANTICS*
+<header>
+logo
+
+<nav>
+list of links
+ul
+<main>
+page content
+articles
+<footer>
+divs as two sides
+
+GRID*
+flexbox or grid?
+
+units of measurement?
+
+<styles>
+body {
+set background, font-fam, margin[l,r,u,d]
+}
+h1{font-size}
+h2{font-size}
+
+"center logo"
+header > img {
+display: block;
+margin-left: auto
+margin-right: auto
+}
+
+"nav bar"
+nav ul {
+list-style: none;
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+
+section {
+display: flex;
+}
+
+article {
+flex: 1;
+}
+
+footer {
+display: flex;
+}
+
+footer div {
+flex: 1;
+}
+<styles>
